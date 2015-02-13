@@ -1,0 +1,25 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding: 50px;
+}
+
+
+
+ul li {
+  list-style-type: none;
+  background-color: #efefef;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul li .edit {
+  display: none;
+}
+
+ul li.edit .edit {
+  display: initial;
+}
+
+ul li.edit .noedit {
+  display: none;
+}

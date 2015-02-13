@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <button class="panel-button" data-panelid="panel1">#btn1</button>
+        <button class="panel-button" data-panelid="panel2">#btn2</button>
+        <button class="panel-button" data-panelid="panel3">#btn3</button>
+        <button id="btn4">#btn4</button>
+
+
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <div id="panel1" class="panel panel-primary">
+            <div class="panel-heading">
+              <h2>#panel1</h2>
+            </div><!--end panel heading-->
+            <div class="panel-body">
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--end panel-body-->
+          </div><!--end Panel1-->
+        </div><!--end col-md-4-->
+
+        <div class="col-md-4">
+          <div id="panel2" class="panel panel-primary">
+            <div class="panel-heading">
+              <h2>#panel2</h2>
+            </div><!--end panel heading-->
+            <div class="panel-body">
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--end panel-body-->
+          </div><!--end Panel1-->
+        </div><!--end col-md-4-->
+
+        <div class="col-md-4">
+          <div id="panel3" class="panel panel-primary">
+            <div class="panel-heading">
+              <h2>#panel3</h2>
+            </div><!--end panel heading-->
+            <div class="panel-body">
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--end panel-body-->
+          </div><!--end Panel1-->
+        </div><!--end col-md-4-->
+
+      <hr>
+
+      <ul class="list">
+        <li>
+          one
+        </li>
+        <li class="special">
+          two
+        </li>
+        <li>
+          three
+        </li>
+        <li>
+          <ul class="sublist">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </li>
+      </ul>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src=../"bower_components/jquery/dist/jquery.min.js">
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../node_modules/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    <script>
+    $ (function() {
+
+      $('.panel-button').on('click', function() {
+        var panelId = $(this).attr('data-panelid');
+        $('#'+panelId).toggle(400);
+      });
+
+      $('li').on('click', function() {
+        console.log('clicked li');
+        // other stuff to all li's
+        if ($(this).parent().is('.sublist')) {
+          $(this).hide(400);
+        }
+
+
+      });
+
+    });
+
+
+    </script>
+  </body>
+</html>
